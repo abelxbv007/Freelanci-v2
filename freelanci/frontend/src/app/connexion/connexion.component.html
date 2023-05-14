@@ -1,0 +1,30 @@
+<div class="body">
+    <a href="index.html"><div class="logo">
+        <img class="logoimg" src="../../../assets/icons/logo.png" alt="">
+        <p class="name">Home</p>
+     </div>
+    </a>
+     <div class="container">
+        <h1>Connecter vous
+        </h1>
+        <button class="conx">Continuer avec Apple</button>
+        <button class="conx">Continuer avec Google</button>
+        <div class="or">
+        <div><div class="ligne"></div></div>
+        <p>ou</p>
+        <div><div class="ligne"></div></div>
+    </div>
+    <p *ngIf="!this.incorrect" style="color: rgb(255, 62, 62);"> email et/ou mot de passe incorrect(s) !</p>
+    <form action="">
+        
+        <input class="cnx" [(ngModel)]="user.email" name="email" type="email" placeholder="Adresse e-mail professionnelle">
+        <input class="cnx" [(ngModel)]="user.password" name="password"  type="password" placeholder="Mot de passe(8 caractéres ou plus)">
+       
+         
+      
+        <div class="check"> <input type="checkbox" >
+            <label for="">Rester connecté</label></div>
+       <button (click)="login()" class="btn"> Se Connecter</button>
+    </form>
+     </div>
+    </div>

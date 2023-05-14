@@ -1,0 +1,137 @@
+*{margin: 0;padding: 0;}
+.body{
+  
+   height: 100vh;
+    animation: start 0.8s  ease-in-out;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(0deg, #212122 30%, #070708 70%);
+    font-family: 'roboto',sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+   
+    flex-direction: column;
+    
+}
+nav{
+    margin: 0;
+    width: 100%;
+    }
+.ctn{
+    border-top: 1px solid rgba(255, 255, 255, 0.232);
+    width: 100%;
+    height: 100vh;
+   overflow: hidden;
+    display: flex;
+}
+.leftp{
+    width: 25%;
+}
+.leftp h1{
+    opacity: 70%;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+.users{
+    height: 90%;
+  
+width: 100%;
+    border-right:  1px solid rgba(255, 255, 255, 0.239);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+  .img{
+    border-radius: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  
+    overflow: hidden;
+  }
+  img{
+    z-index: 15;
+  }
+.user{
+    padding: 1rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+    border-bottom: 1px solid white;
+    transition: .2s;
+}
+.user:hover{
+    background-color: #8888881b;
+}
+.messages{
+    padding: 1rem;
+    width: 70rem;
+  }
+.message{
+    padding: 2rem;
+    height: 24rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.message p{
+    border: 1px solid #4faca4c6;
+    border-radius: 1rem;
+    padding: 1rem;
+    backdrop-filter: blur(20px);
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    transition: 0.2s;
+    margin-bottom: 1rem;
+    
+}
+.message .right{
+    width: 45%;margin-left: 25rem;
+}
+.message .left{
+    width: 45%;
+    
+}
+input{
+    color: white;
+    padding-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    height: 2rem;
+    width: 42rem;
+    background-color: transparent;
+    border: 1px solid #4faca4c6;
+    border-radius: 1rem;
+}
+
+.input button{
+    background-color: transparent;
+    border: 1px solid #4faca4c6;
+    border-radius: 1rem;
+    height: 2rem;
+    color: white;
+    width:10rem;
+    transition: .2s;
+}
+.input button:hover{
+    background-color:  #4faca4c6;
+}

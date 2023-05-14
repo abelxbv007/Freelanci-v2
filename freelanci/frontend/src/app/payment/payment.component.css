@@ -1,0 +1,119 @@
+.body{
+    height: 100vh;
+    animation: start 0.8s  ease-in-out;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+    background: linear-gradient(90deg, #212122 30%, #070708 70%);
+    font-family: 'roboto',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   padding-left:3rem ;
+   padding-right: 3rem;
+  
+    
+}
+.logo{
+    margin-left: 15rem;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.logo p{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.container{
+   
+    gap: 5px;
+    margin-top: 40px;
+    display: flex;
+    padding: 35px 25px 35px 25px;
+    flex-direction: column;
+   
+    border: 1px solid ;
+    border-radius: 25px;
+    border-color:#1f8e85; 
+    color: #1eb5a8;
+    width: 50%;
+    height: 28rem;
+    backdrop-filter: blur(5px);
+   margin-bottom: 4rem;
+}
+.left-side{
+    width: 70%;
+}
+.right-side{
+    width: 25%;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 5px;
+}
+.info span{
+    color: rgba(255, 255, 255, 0.876);
+}
+form input{
+   
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    height: 2rem;
+    width:30rem;
+    color: white;
+    border-bottom:1px solid  #1f8e85;
+    margin-left: 2rem;
+}
+.mlogo{
+    margin-bottom: 2rem;
+}
+ .v input{
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    height: 2rem;
+    width:50%;
+    color: white;
+    border-bottom:1px solid  #1f8e85;
+    margin-left: 2rem;
+ }
+    .btn{
+        border: 1px solid #4faca4c6;
+        height: 3rem;
+        width: 15rem;
+        margin-top: 2rem;
+        border-radius: 30px;
+        padding:0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        color:  #dbf3f1c6;
+        transition: 0.3s;
+    }
+    
+    button:hover{
+        background-color:#318c84 ;
+        color: white;
+    }
+    h3{
+        text-align: center;
+    }

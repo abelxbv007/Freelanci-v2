@@ -1,0 +1,137 @@
+<div class="body">
+    <nav><app-navbar></app-navbar></nav>
+    <img src="./user/1.jpg" alt="">
+<div class="ctn">
+    
+   <div class="leftp">
+    
+    <div class="users">
+       
+        <div class="user" (click)="change(0)" >
+            <div class="img">
+                <img src="./user/1.jpg" alt="">
+            </div>
+            <p class="name">Ahmed Azzouzi</p>
+        </div>
+        <div class="user" (click)="change(1)">
+    
+            <div class="img">
+                <img src="" alt="">
+            </div>
+            <p class="name">fatma chaari</p>
+        </div>
+        <div class="user"(click)="change(2)">
+             <div class="img">
+                <img src="" alt="">
+            </div>
+            <p class="name">Abdrazzek chemakh</p>
+        </div>
+        <div class="user" (click)="change(3)">
+          <div class="img">
+                <img src="" alt="">
+            </div>
+            <p class="name">salma Benjrad</p>
+        </div>
+        <div class="user" (click)="change(4)">
+          <div class="img">
+                <img src="" alt="">
+            </div>
+            <p class="name">Aymen bensalah</p>
+        </div>
+        <div class="user" (click)="change(5)">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+            <p class="name">jamila sakli</p>
+        </div>
+        <div class="user" (click)="change(6)">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+            <p class="name">fatma elBehi</p>
+        </div>
+        <div class="user" (click)="change(7)">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+            <p class="name">test-4</p>
+        </div>
+     </div>
+   </div>
+ <div class="messages">
+    <div class="message" *ngIf="msg==0"> <p class="right"> Bonjour, je suis à la recherche d'un graphiste freelance pour la création d'un logo pour ma nouvelle entreprise. Est-ce que vous seriez intéressé par ce projet ?</p>
+    <p class="left">Bonjour ! Absolument, je serais ravi de travailler sur la création de votre logo. Pouvez-vous me donner plus de détails sur votre entreprise et ce que vous recherchez pour votre logo ?</p>
+    <p class="right"> Bien sûr. Mon entreprise s'appelle "La Bonne Cuisine". Nous sommes spécialisés dans la préparation et la livraison de plats cuisinés faits maison. Nous voulons un logo qui reflète notre approche artisanale et notre engagement envers des ingrédients de qualité.</p>
+    <p class="left"> Merci pour ces informations. Avez-vous des préférences en termes de couleurs ou de style de logo ? Aimeriez-vous quelque chose de moderne, de rétro ou peut-être quelque chose de plus minimaliste ?</p>
+    <p class="right">Nous aimerions que le logo soit à la fois moderne et chaleureux. Les couleurs associées à la nourriture comme le vert, le rouge ou l'orange pourraient être appropriées, mais nous sommes ouverts à d'autres suggestions.</p>
+    <p class="left">Très bien, je prends note de vos préférences. Pourriez-vous également me donner quelques mots clés qui décrivent l'identité et les valeurs de votre entreprise ? Cela m'aidera à mieux comprendre l'image que vous souhaitez transmettre à travers votre logo.</p>
+    <p class="right">Certainement. Les mots clés seraient : fait maison, qualité, fraîcheur, authenticité et convivialité.</p>
+    <p class="left">Parfait, cela me donne une meilleure idée de la direction à prendre. Je vais commencer à travailler sur quelques concepts de logo en utilisant ces informations. Je vous enverrai une première série de propositions d'ici deux jours. Ensuite, nous pourrons les examiner ensemble et apporter des ajustements si nécessaire.</p>
+    
+    <p class="left"> Merci à vous. Je vous enverrai les premières propositions dans les délais convenus. À très bientôt et passez une excellente journée !</p>
+
+    <p class="right">Merci beaucoup. Nous attendons avec impatience de voir vos propositions de logo. À bientôt !</p></div>
+    <div class="message" *ngIf="msg==1">
+        <p class="right">Salut, j'ai besoin d'un designer graphique freelance pour créer un nouveau logo pour mon entreprise. Est-ce que vous êtes disponible pour ce projet ?</p>
+        <p class="left">Bonjour ! Absolument, je suis très intéressé par votre projet de création de logo. Pouvez-vous me donner plus de détails sur votre entreprise et le style que vous souhaitez pour votre nouveau logo ?</p>
+        <p class="right">Bien sûr. Mon entreprise s'appelle "Creative Solutions". Nous sommes une agence de marketing numérique axée sur l'innovation et la créativité. Pour le logo, j'aimerais quelque chose de moderne, élégant et qui communique notre approche innovante.</p>
+        <p class="left">Merci pour ces informations. Avez-vous des préférences en termes de couleurs ou d'éléments visuels que vous souhaitez inclure dans le logo ?</p>
+        <p class="right">J'aimerais utiliser des couleurs vives et dynamiques qui représentent notre énergie créative. J'aime également l'idée d'incorporer des formes géométriques simples et élégantes.</p>
+        <p class="left">C'est noté. Je vais commencer à travailler sur quelques concepts de logo en utilisant vos indications. Je vous enverrai une première série de propositions dans les prochains jours. Nous pourrons ensuite affiner les détails selon vos retours.</p>
+        <p class="right">Parfait, je suis impatient de voir vos propositions de logo. Prenez votre temps et faites-moi savoir si vous avez besoin de plus d'informations pour avancer dans le processus.</p>
+      </div>
+      <div class="message" *ngIf="msg==2">
+        <p class="right">Bonjour, j'ai un projet de création d'un site web pour ma nouvelle entreprise. Seriez-vous disponible pour travailler sur ce projet ?</p>
+        <p class="left">Bonjour ! Absolument, je serais ravi de vous aider dans la création de votre site web. Pouvez-vous me donner plus de détails sur votre entreprise et vos besoins spécifiques pour le site ?</p>
+        <p class="right">Bien sûr. Mon entreprise s'appelle "Tech Solutions". Nous sommes une startup spécialisée dans le développement de logiciels innovants. Nous avons besoin d'un site web professionnel qui reflète notre expertise technologique et notre approche centrée sur l'utilisateur.</p>
+        <p class="left">Merci pour ces informations. Avez-vous déjà une idée du nombre de pages et des fonctionnalités que vous souhaitez avoir sur votre site ?</p>
+        <p class="right">Nous prévoyons d'avoir environ 5 à 7 pages, y compris une page d'accueil, une page de présentation de nos services, une page de contact et éventuellement une section de blog. En ce qui concerne les fonctionnalités, nous aimerions intégrer un formulaire de contact, un système de témoignages clients et une intégration avec les réseaux sociaux.</p>
+        <p class="left">C'est noté. Je vais commencer à travailler sur la conception du site en tenant compte de vos besoins. Je vous enverrai une maquette dans les prochains jours afin que vous puissiez voir le design et apporter des modifications si nécessaire.</p>
+        <p class="right">Parfait, je suis impatient de voir votre proposition de maquette. Prenez votre temps et n'hésitez pas à me contacter si vous avez des questions supplémentaires.</p>
+      </div>
+      <div class="message" *ngIf="msg==3">
+        <p class="right">Bonjour, je suis à la recherche d'un traducteur freelance pour traduire un document important. Seriez-vous disponible pour ce projet ?</p>
+        <p class="left">Bonjour ! Oui, je serais ravi de vous aider avec la traduction de votre document. Pouvez-vous me donner plus de détails sur le contenu du document et les langues dans lesquelles vous souhaitez le traduire ?</p>
+        <p class="right">Bien sûr. Le document est un contrat commercial d'environ 10 pages. Je souhaiterais le traduire de l'anglais vers le français.</p>
+        <p class="left">Merci pour ces informations. Avez-vous une date limite pour la traduction ? Et y a-t-il des termes ou des expressions spécifiques que je devrais prendre en compte lors de la traduction ?</p>
+        <p class="right">Nous avons besoin de la traduction dans les deux semaines. Il y a quelques termes techniques liés à notre secteur d'activité que vous devrez prendre en compte. Je peux vous fournir un glossaire pour vous aider.</p>
+        <p class="left">C'est noté. Je vais commencer la traduction en utilisant vos indications et en prenant en compte les termes techniques spécifiques. Je vous enverrai le document traduit pour vérification avant la date limite.</p>
+        <p class="right">Parfait, je vous remercie pour votre aide. N'hésitez pas à me contacter si vous avez des questions supplémentaires pendant le processus de traduction.</p>
+      </div>
+      <div class="message" *ngIf="msg==4">
+        <p class="right">Bonjour, je suis à la recherche d'un designer UX/UI freelance pour améliorer l'expérience utilisateur de notre application mobile. Seriez-vous intéressé par ce projet ?</p>
+        <p class="left">Bonjour ! Absolument, je serais ravi de travailler sur l'amélioration de l'expérience utilisateur de votre application mobile. Pourriez-vous me donner plus de détails sur l'application et les objectifs que vous souhaitez atteindre ?</p>
+        <p class="right">Bien sûr. Notre application est une plateforme de réservation de services de fitness. Nous voulons rendre l'expérience de réservation plus intuitive et attrayante pour nos utilisateurs.</p>
+        <p class="left">Merci pour ces informations. Avez-vous déjà une idée du style visuel que vous souhaitez pour l'application ? Et avez-vous des exigences spécifiques en termes de navigation et d'interaction utilisateur ?</p>
+        <p class="right">Nous voulons un design moderne et épuré, avec une utilisation judicieuse de couleurs dynamiques. En ce qui concerne la navigation, nous souhaitons simplifier le processus de réservation et rendre les fonctionnalités clés facilement accessibles pour les utilisateurs.</p>
+        <p class="left">C'est noté. Je vais commencer à travailler sur la conception de l'interface utilisateur en tenant compte de vos objectifs. Je vous enverrai des maquettes pour que vous puissiez les évaluer et apporter des modifications si nécessaire.</p>
+        <p class="right">Parfait, je suis impatient de voir vos propositions de maquettes. N'hésitez pas à me contacter si vous avez des questions supplémentaires ou des directives spécifiques.</p>
+      </div>
+      <div class="message" *ngIf="msg==5">
+        <p class="right">Bonjour, je suis à la recherche d'un designer UX/UI freelance pour améliorer l'expérience utilisateur de notre application mobile. Seriez-vous intéressé par ce projet ?</p>
+        <p class="left">Bonjour ! Absolument, je serais ravi de travailler sur l'amélioration de l'expérience utilisateur de votre application mobile. Pourriez-vous me donner plus de détails sur l'application et les objectifs que vous souhaitez atteindre ?</p>
+        <p class="right">Bien sûr. Notre application est une plateforme de réservation de services de fitness. Nous voulons rendre l'expérience de réservation plus intuitive et attrayante pour nos utilisateurs.</p>
+        <p class="left">Merci pour ces informations. Avez-vous déjà une idée du style visuel que vous souhaitez pour l'application ? Et avez-vous des exigences spécifiques en termes de navigation et d'interaction utilisateur ?</p>
+        <p class="right">Nous voulons un design moderne et épuré, avec une utilisation judicieuse de couleurs dynamiques. En ce qui concerne la navigation, nous souhaitons simplifier le processus de réservation et rendre les fonctionnalités clés facilement accessibles pour les utilisateurs.</p>
+        <p class="left">C'est noté. Je vais commencer à travailler sur la conception de l'interface utilisateur en tenant compte de vos objectifs. Je vous enverrai des maquettes pour que vous puissiez les évaluer et apporter des modifications si nécessaire.</p>
+        <p class="right">Parfait, je suis impatient de voir vos propositions de maquettes. N'hésitez pas à me contacter si vous avez des questions supplémentaires ou des directives spécifiques.</p>
+      </div>
+      <div class="message" *ngIf="msg==6">
+        <p class="right">Bonjour, je suis à la recherche d'un rédacteur freelance pour la création de contenu pour mon blog. Seriez-vous intéressé par cette collaboration ?</p>
+        <p class="left">Bonjour ! Absolument, je serais ravi de travailler avec vous sur la création de contenu pour votre blog. Pouvez-vous me donner plus de détails sur le sujet du blog et le type d'articles que vous recherchez ?</p>
+        <p class="right">Bien sûr. Mon blog traite de la nutrition et de la santé. Je recherche des articles informatifs et engageants sur des sujets tels que l'alimentation équilibrée, les bienfaits des vitamines, etc.</p>
+        <p class="left">Merci pour ces informations. Avez-vous une idée du nombre d'articles que vous souhaitez commander et de la longueur approximative de chaque article ?</p>
+        <p class="right">Je prévois de commander environ 10 articles pour commencer. Chaque article devrait faire entre 800 et 1000 mots.</p>
+        <p class="left">C'est noté. Je vais commencer à travailler sur les articles en suivant vos indications et en effectuant des recherches approfondies sur les sujets donnés. Je vous enverrai les articles terminés pour révision dans les délais convenus.</p></div>
+      
+      
+      
+      
+    <div class="input" >
+        <input type="text" name="" id="" placeholder="envoyer un nouveau message...">
+        <button>envoyer</button>
+    </div>
+ </div>
+</div>
+
+</div>

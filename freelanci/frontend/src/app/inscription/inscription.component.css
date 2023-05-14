@@ -1,0 +1,87 @@
+.body{
+    left:0;
+    right:0;
+    bottom:0;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #212122 30%, #070708 70%);
+    font-family: 'roboto',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.logo{
+   
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo p{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 140px;
+    height: auto;
+}
+.container{
+    margin-top: 40px;
+    margin-bottom:5rem;
+    display: flex;
+    padding: 35px 25px 35px 25px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid ;
+    border-radius: 25px;
+    border-color:#1f8e85; 
+    color: #1eb5a8;
+    width: 40%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    height: 310px;
+   
+    
+
+}
+.options{
+    margin-top: 35px;
+    
+    color: white;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.options div{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    border-radius: 25px;
+    height: 70%;
+    background-color: #12464168;
+    transition: 0.7s;
+    
+}
+.options div:hover{
+    background-color:transparent;
+    border: 0.5px solid ;
+    border-color:#4fafa7; 
+    border-radius: 25px;
+
+}
+a{
+    color: cornsilk;
+}
+.options div a{
+    font-weight: 200;
+    
+    
+    color: white;
+text-decoration: none;}

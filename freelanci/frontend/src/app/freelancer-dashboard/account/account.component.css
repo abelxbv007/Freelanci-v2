@@ -1,0 +1,82 @@
+.body{
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    animation: start 1.5s  ease-in-out;
+    background: linear-gradient(90deg, #212122 , #070708 40%);
+    
+    margin: 0;
+    box-sizing: border-box;
+  
+font-family: 'roboto',sans-serif;
+}
+.header{
+    border-radius: 2rem;
+    backdrop-filter: blur(20px);
+    padding: 2rem;
+    border: 1px white solid;
+    display: flex;
+   gap: 2rem;
+    color:white;
+}
+.s{width: 41rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 1rem;
+}
+.title{
+    font-weight: 100;
+    opacity: 40%;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+   gap:0.5rem;
+    align-items: center;
+
+}
+img{
+    width: 70%;
+}
+    
+.btn2{
+    border: 1px solid #4faca4c6;
+    height: 2rem;
+    width: 14rem;
+    border-radius: 20px;
+    padding:0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color:  #dbf3f1c6;
+    transition: 0.3s;
+}
+.btn2:hover{
+    background-color: #4faca4c6 ;
+    color: black;
+}
+.work .worktitle{
+    text-align: center;
+}
+.work{
+    color: white;
+}
+.postulation{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.postulation .pub{
+    padding: 1rem;
+    border: 1px solid #4faca4c6;
+    border-radius: 20px;
+}
+.pub h1{
+    font-weight: 100;
+    font-size: 1rem;
+}

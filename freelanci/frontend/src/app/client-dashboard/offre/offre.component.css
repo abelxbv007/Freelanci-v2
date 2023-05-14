@@ -1,0 +1,164 @@
+body{
+   
+    animation: start 1.5s  ease-in-out;
+    background: linear-gradient(90deg, #212122 , #070708 40%);
+    font-weight: 300;
+    margin: 0;
+    box-sizing: border-box;
+  
+font-family: 'roboto',sans-serif;
+}
+
+.all{
+    padding: 3rem;
+}
+.main-nav{
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.separate{
+    width: 70px;
+    height: 2px;
+    background-color: aliceblue;
+}
+.nav-elements{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.liste{
+    display: flex;
+    
+}
+.logo{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoimg{
+    
+    width: 70px;
+    height: auto;
+}
+.name{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+li{
+    
+    margin-left: 35px;
+    list-style: none;
+    transition: 0.4s ease-out;
+}
+li:hover{
+    color: #054741;
+ 
+}
+.container{
+    margin-top: 2rem;
+    border: 1px solid #4faca4c6;
+    border-radius: 1rem;
+    padding: 2rem;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+   
+    color: white;
+    transition: 0.2s;
+
+}
+input
+{margin-left: 1rem;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    height: 2rem;
+    width: 40rem;
+    color: white;
+    border-bottom:1px solid  #1f8e85;
+    border-top:1px solid  #1f8e851b;
+}
+textarea{
+    width: 80%;
+    height: 25rem;
+    border: 1px solid #4faca4c6;
+    border-radius: 1rem;
+    background-color: transparent;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    color: white;
+}
+button{
+    border: 1px solid #4faca4c6;
+    height: 2rem;
+    border-radius: 20px;
+    padding:0 1rem;
+    
+    align-items: center;
+    background-color: transparent;
+    color:  #dbf3f1c6;
+    transition: 0.3s;
+}
+.elements{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+   background-color: #4faca4c6;
+   color: black;
+}.connexion{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    }
+    .connexion button{
+        border: 1px solid #4faca4c6;
+        height: 2rem;
+        border-radius: 20px;
+        padding:0 1rem;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        color:  #dbf3f1c6;
+        transition: 0.3s;
+        
+    }
+    .connexion button:hover{
+        background-color: #4faca4c6 ;
+        color: black;
+    }
+    .connexion a {
+        text-decoration: none;
+    }
+    .connexion .search{
+        border: 1px solid #4faca4c6;
+        padding:0 0.5rem;
+        height: 2rem;
+        width: 20rem;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .search span{
+        margin-left: 10px;
+        font-weight: 100;
+        font-size: 0.9rem;
+    }
+    .search input{
+        margin-left: 20px;
+        width: 80%;
+        height: 80%;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    

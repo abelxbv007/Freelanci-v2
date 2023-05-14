@@ -1,0 +1,25 @@
+
+<nav class="main-nav">
+    <a href=""> <div class="logo">
+        <img class="logoimg" src="" alt="">
+        <p class="name">Freelanci</p>
+     </div></a>
+     <div class="nav-elements">
+        <ul class="liste">
+            <li>offres</li>
+            <li routerLink="/reports">Reports</li>
+            <li routerLink="/messages">Messages</li>
+            
+        </ul>
+
+     </div>
+     
+     <div class="connexion">
+        <div class="search">
+         <span>search </span><input type="text" placeholder="recherecher un talent">
+        </div>
+        <a *ngIf="islogged==true" ><button class="btn2" (click)="gotoaccount()">Mon Compte</button></a>
+        <a href="inscription.html"><button class="btn2">Deconnexion</button></a>
+     </div>
+     
+     </nav>

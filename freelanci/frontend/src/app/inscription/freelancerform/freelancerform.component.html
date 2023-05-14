@@ -1,0 +1,33 @@
+<div class="body"><a href="index.html"><div class="logo">
+    <img class="logoimg" src="../../../assets/icons/logo.png" alt="">
+    <p class="name">Freelanci</p>
+ </div>
+</a>
+ <div class="container">
+    <h1>Inscrivez-vous pour recruter des talents
+    </h1>
+    <button class="conx">Continuer avec Apple</button>
+    <button class="conx">Continuer avec Google</button>
+    <div class="or">
+    <div><div class="ligne"></div></div>
+    <p>ou</p>
+    <div><div class="ligne"></div></div>
+</div>
+<form action="">
+    <input [(ngModel)]="user.name" type="text" name="name" placeholder="Prénom">
+    <input [(ngModel)]="user.familyname"type="text" name="familyname" placeholder="Nom de famille">
+    <input [(ngModel)]="user.email"  name="email" placeholder="Adresse e-mail professionnelle">
+    <input [(ngModel)]="user.password" type="password" name="password" placeholder="Mot de passe(8 caractéres ou plus)">
+     
+    <div class="check">
+        <input type="checkbox">
+    <label for="checkbox1"> Envoyez-moi des e-mails avec des conseils sur la façon de trouver des talents .</label>
+   
+    </div>
+    <div class="check"> <input type="checkbox" >
+        <label for="">Oui, je comprends et j'accepte les conditions d'utilisation de Freelanci</label></div>
+   
+
+        <button (click)="register()" class="btn" type="submit"> Créer mon compte</button>
+</form>
+ </div></div>

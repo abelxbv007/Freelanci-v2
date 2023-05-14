@@ -1,0 +1,60 @@
+
+<div *ngIf="window == 0">
+    
+<div class="pub" *ngFor="let x of pubs" >
+    <div class="f1"> <div class="info">
+     <h4>{{x.title}} </h4>
+     <p>Budget: {{x.budget}}dt</p>
+     <p>créé le {{x.date}}</p>
+ </div>
+ <div class="extra-info">
+   
+     <div class="contents"><h3>{{x.prop}}</h3>
+         <p> propositions</p></div>
+         <div class="contents"><h3>{{x.invit}}</h3><p>Invitations Envoyé</p></div>
+         <div class="contents"><h3>{{x.emp}}</h3><p>Embauché</p></div>
+ </div></div>
+ <button (click)="change()" class="ch">{{m}}</button >
+     <div class="invit" *ngIf="click==true">
+         <div class="inv">
+             <h5>invitation de la part de: <span>Ahmed azzouzi</span></h5>
+             <p>envoyer: <span>il ya 5 minutes.</span></p>
+             <p>lettre:</p>
+             <p>Cher responsable du projet, <br><br>
+ 
+                 J'espère que cette lettre vous trouvera en bonne santé et de bonne humeur. Je suis très enthousiaste à l'idée de postuler pour le poste de création de logos en freelance, et je souhaite vous faire part de ma passion pour ce domaine.
+                 
+                 Je suis un graphiste talentueux et créatif, avec plusieurs années d'expérience dans la conception de logos. Mon objectif est de créer des logos uniques et mémorables qui représentent parfaitement l'identité d'une entreprise ou d'une marque. <br><br> J'ai une approche stratégique de la conception de logos, en tenant compte des objectifs de l'entreprise, de son public cible et de l'image qu'elle souhaite projeter.</p>
+                 <div class="b2"> <button>envoyer un message</button><button>visiter son profil</button>
+         </div>
+        </div>
+        <div class="inv">
+         <h5>invitation de la part de: <span>Abderrazek chemakh</span></h5>
+         <p>envoyer: <span>il ya 10 minutes.</span></p>
+         <p>lettre:</p>
+         <p>
+     
+             En tant que freelance, j'ai travaillé avec divers clients, allant des petites entreprises locales aux grandes entreprises internationales. J'ai acquis une solide expertise dans l'utilisation des logiciels de conception graphique tels que Adobe Illustrator et Photoshop, ce qui me permet de produire des logos de haute qualité dans un délai rapide.
+     
+     Ce qui me distingue en tant que concepteur de logos, c'est ma capacité à comprendre les besoins spécifiques de chaque client et à transformer leurs idées en designs exceptionnels. Je suis également ouvert aux commentaires et aux révisions, car je crois fermement que la collaboration étroite avec le client est essentielle pour parvenir à un résultat final satisfaisant.</p>
+             <div class="b2"> <button>envoyer un message</button><button>visiter son profil</button>
+     </div>
+     </div>
+        <div class="inv">
+         <h5>invitation de la part de: <span>test</span></h5>
+         <p>envoyer: <span>il ya 35 minutes.</span></p>
+         <p>lettre:</p>
+         <p>Cher responsable du projet, <br><br>
+ 
+             Je suis convaincu que ma créativité, mon sens de l'esthétique et ma rigueur professionnelle font de moi un candidat idéal pour ce poste de freelance en création de logos. Je suis prêt à mettre à profit mes compétences et mon expérience pour aider votre entreprise à atteindre ses objectifs de branding.
+ 
+ Je vous remercie sincèrement de prendre le temps d'examiner ma candidature. Je serais ravi de discuter plus en détail de ma proposition et de vous montrer certains de mes travaux antérieurs. Merci encore pour votre considération et j'espère avoir l'opportunité de travailler avec vous bientôt..</p>
+             <div class="b2"> <button>envoyer un message</button><button>visiter son profil</button>
+     </div>
+    </div>
+    
+     </div>
+ </div>
+ 
+ 
+</div>

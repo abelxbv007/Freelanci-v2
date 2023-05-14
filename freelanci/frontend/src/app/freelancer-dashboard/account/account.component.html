@@ -1,0 +1,47 @@
+<div class="body">
+  <div class="header">
+    <div class="img">
+        
+        <img src="../../../assets/icons/user (2).png" alt="">
+    
+        <button (click)="changeprofilepic()" class="btn2">change profile picture</button>
+        <p class="title">Gain Total</p>
+        <h1>500DT</h1>
+    </div>
+    <div class="descritpion">
+    <h1>Bienvenu {{name}} {{familyname}} </h1>
+    <p class="title">speciality:</p>
+    <p>Graphic designer - UI/UX Designer</p>
+    <br>
+    <p class="title">description:</p>
+    <p class="descritpion">Hi there! I'm a freelance in graphic design with 4 years of experience in [insert relevant industry/field]. I specialize in [insert your area of expertise], and I've worked with clients from all around the world on projects of varying scopes and sizes.
+
+        My approach to work is collaborative and client-focused. I believe that communication and transparency are key to successful partnerships, and I always strive to exceed my clients' expectations by delivering high-quality work on time and within budget.
+        
+        Whether you need help with [insert some common services you offer], or if you have a custom project that requires my expertise, I'm here to help. Please feel free to reach out to me to discuss your project needs and how we can work together to achieve your goals.</p>
+    <br><br>
+    <div class="s"><p class="title">Nom</p>
+        <p >{{name}}</p> <button class="btn2">changer le nom</button></div>
+       
+    <div class="s"><p  class="title">email</p>
+        <p >{{email}}</p>  <button class="btn2">changer l'adresse email</button> </div>
+    <div class="s"><p class="title">Mot de passe</p>
+        <p >{{password}}</p> <button class="btn2">changer le mot de passe</button></div>
+
+    
+</div>
+</div>
+<div class ="work">
+<h1 class="worktitle">Historique de Postulation</h1>
+<div class="postulation">
+    <div *ngFor="let x of mesoffres" class="pub">
+       <h1 class="pubtitle">{{x.title}}</h1>
+       <p class="title">{{x.info}}</p>
+
+    </div>
+</div>
+</div>
+ 
+
+
+</div>

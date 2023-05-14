@@ -1,0 +1,147 @@
+.body{
+    padding-left: 3rem;
+    animation: start 1.5s  ease-in-out;
+    background: linear-gradient(90deg, #212122 , #070708 40%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+font-family: 'roboto',sans-serif;
+}
+.dash{
+    padding: 4rem;
+}
+.main-nav{
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.separate{
+    width: 70px;
+    height: 2px;
+    background-color: aliceblue;
+}
+.nav-elements{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.liste{
+    display: flex;
+    
+}
+.logo{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoimg{
+    
+    width: 70px;
+    height: auto;
+}
+.name{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+li{
+    
+    margin-left: 20px;
+    list-style: none;
+    transition: 0.4s ease-out;
+}
+li:hover{
+    color: #054741;
+ 
+}
+
+
+.connexion{
+width: 40%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 15px;
+
+}
+.connexion button{
+    border: 1px solid #4faca4c6;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 20px;
+    padding:0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color:  #dbf3f1c6;
+    transition: 0.3s;
+    
+}
+.connexion button:hover{
+    background-color: #4faca4c6 ;
+    color: black;
+}
+.connexion a {
+    text-decoration: none;
+}
+.connexion .search{
+    border: 1px solid #4faca4c6;
+    padding:0 0.5rem;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.search span{
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.search input{
+    margin-left: 20px;
+    width: 80%;
+    height: 80%;
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+.connex .search{
+    border: 1px solid #4faca4c6;
+    padding:0 0.5rem;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.user{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user img{
+    width: 140px;
+}
+.right{
+    padding-left: 20px;
+}
+.ele{
+padding: 1rem;
+    border: 1px solid #4faca4c6;
+    color: white;
+    
+    border-radius: 10px;
+}
+

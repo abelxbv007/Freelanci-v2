@@ -1,0 +1,42 @@
+<div class="body">
+    <div class="left-side container">
+        <div class="mlogo">
+            <a href="index.html">
+                <div class="logo">
+                <img class="logoimg" src="../../../assets/icons/logo.png" alt="">
+                <p class="name">Confirmation</p>
+            </div></a>
+        </div>
+    
+    <form action="">
+        <div class="contents">
+         <label for="">Numéro de carte</label>
+         <input type="text" name="" id="" placeholder="551262642642">
+        </div>
+        <div class="contents">
+         <div class="c">
+             <label for="">date d'expiration</label>
+             <input type="text" name="" id="" placeholder="10/04/2030">
+            </div>
+            <div class="c">
+             <label for="">code de securité</label>
+             <input type="text" name="" id="" placeholder="2487">
+            </div>
+        </div>
+        <button type="submit" class="btn">Modifier les données</button>
+        <button type="submit" class="btn">Confirmer</button>
+     </form>
+</div>
+    <div class="right-side container">
+        <p class="title">Payement en Cours...</p>
+      <p class="info"><span class="t">freelancer:</span> Hsan oueslati</p>
+      <p class="info"><span class="t">tache:</span> Conception de logo pour une entreprise start-up</p>
+      <p class="info"><span class="t">montant a payer:</span> {{payment}} DT</p>
+      <div class="v">
+        <label for="">bonus</label>
+        <input [(ngModel)]="bonus" type="number" name="" id="" placeholder="50DT">
+
+      </div>
+      <h3 >total: {{total+bonus}}DT</h3>
+    </div>
+</div>

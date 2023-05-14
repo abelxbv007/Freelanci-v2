@@ -1,0 +1,17 @@
+<router-outlet></router-outlet>
+<div class="body">
+    <div class="logo">
+        <img class="logoimg" src="../../assets/icons/logo.png" alt="">
+        <p class="name">Freelanci</p>
+     </div>
+     <div class="container">
+         <h1>Inscrivez-vous en tant que client ou indépendant</h1>
+         <div class="options">
+            <div><a [routerLink]="['../clientform']"><h4>Je suis un client, je recrute pour un projet</h4></a></div>
+            <div><a [routerLink]="['../freelancerform']"><h4>
+                Je suis indépendant, à la recherche d'un emploi</h4></a></div>
+         </div>
+         <br>
+         <h4>Vous avez déjà un compte? <a [routerLink]="['../connexion']"> Connexion</a></h4>
+     </div>
+    </div>

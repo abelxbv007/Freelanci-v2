@@ -1,0 +1,23 @@
+<div class="body">
+  <app-navbar></app-navbar>
+  <div class="dash">
+    <div class="head">
+      <h1>Votre tableau de bord</h1>
+    </div>
+    <div class="container">
+      <div class="left">
+        <div class="publication">
+          <div class="head">
+            <p>Vos recentes publications</p>
+            <a><button (click)="changevalue()">Publier une nouvelle offre +</button></a>
+          </div>
+          <app-content *ngIf="v.value==1"></app-content>
+          <app-offre  *ngIf="v.value==2"></app-offre>
+        </div>
+      </div>
+      <div class="right">
+        <app-rightnavbar></app-rightnavbar>
+      </div>
+    </div>
+  </div>
+</div>

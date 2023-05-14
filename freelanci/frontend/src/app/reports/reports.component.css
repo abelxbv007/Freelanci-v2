@@ -1,0 +1,76 @@
+.body{
+  
+    height: 100vh;
+     animation: start 0.8s  ease-in-out;
+     padding: 0;
+     margin: 0;
+     background: linear-gradient(0deg, #212122 30%, #070708 70%);
+     font-family: 'roboto',sans-serif;
+     display: flex;
+     color: white;
+     align-items: center;
+    
+     flex-direction: column;
+     
+ }
+ nav{
+    width: 100%;
+ }
+ .second {
+    margin-top: 1rem;
+ width: 80%;
+ }
+ .second ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+ }
+ .offres{
+   padding-bottom: 1rem;
+   padding: 1rem;
+    height: 24rem;
+    width: 70rem;
+    overflow: hidden;
+    overflow-y: scroll;
+ }
+ .of{
+    border: 1px solid #4faca4c6;
+    border-radius: 1rem;
+    padding: 1rem;
+    backdrop-filter: blur(20px);
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    transition: 0.2s;
+    margin-bottom: 1rem;
+ }
+ li{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ padding: 1rem;
+   text-align: center;
+   width: 16rem;
+   transition: .4s;
+ }
+ ::-webkit-scrollbar {
+   width: 8px; /* Width of the scrollbar */
+ }
+ 
+ ::-webkit-scrollbar-track {
+   background-color: #f1f1f1; /* Background color of the scrollbar track */
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+   background-color: #888; /* Color of the scrollbar thumb */
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+   background-color: #555; /* Color of the scrollbar thumb on hover */
+ }
+ li:hover{
+   background-color: #4faca421;
+ }

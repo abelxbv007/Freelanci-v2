@@ -1,0 +1,172 @@
+.mainpage{
+    
+    animation: start 1.5s  ease-in-out;
+    background: linear-gradient(90deg, #212122 , #070708 40%);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+  
+font-family: 'roboto',sans-serif;
+}
+.hero{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  
+    
+}
+.main{
+    
+    margin: 0;
+    height: 100vh;
+    margin-top: 5rem;
+    margin-left: 4rem;
+   
+ 
+}
+.titles{
+    width: 60%;
+}
+
+.main h1{
+    
+    padding: 0;
+    margin: 0;
+    color: #39cfab;
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    
+}
+.main h4{
+    font-weight: 300;
+    margin-top: 10px;
+    padding: 0;
+    width: 80%;
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+.start{
+    margin-top: 10px;
+    
+}
+.start button{
+    border: 1px solid #4faca4c6;
+    height: 3rem;
+    width: 40rem;
+    border-radius: 30px;
+    padding:0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color:  #dbf3f1c6;
+    transition: 0.3s;
+}
+.background{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -99;
+    filter: blur(4px);
+}
+button:hover{
+    background-color: #59827e ;
+    color: black;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.information h1{
+    color: #24857d;
+    
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+.information h4{
+    margin: 0;
+    padding: 0;
+}
+.information p{
+    margin-top: 5px;
+}
+.info{
+    height: 100%;
+    margin-right: 70px;
+}
+.start button:hover{
+    background-color: #59827e ;
+    color: black;
+}
+.info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.search h1{
+    color:  #24857d;
+    
+    font-size: 2rem;
+    font-weight: bold;
+}
+.row{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.row div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #4faca4c6;
+    height: 5rem;
+    width: 12rem;
+    border-radius: 30px;
+    padding:1rem;
+    
+    background-color: transparent;
+    color:  #dbf3f1c6;
+    transition: 0.3s;}
+.row div:hover{
+    background-color: #1b4a47 ;
+}
+footer
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+footer .logo img{
+    width: 20%;
+    
+}button{
+    border: 1px solid #4faca4c6;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 30px;
+    padding:0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color:  #dbf3f1c6;
+    transition: 0.3s;
+
+}

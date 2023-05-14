@@ -1,0 +1,31 @@
+<div class="container">
+    <h1>nouvelle publication</h1>
+    <div>
+        <label for="">Rédigez un titre pour votre offre d'emploi</label>
+        <input   [(ngModel)]="offer.title" type="text" placeholder="Exemples:Graphiste nécessaire pour concevoir des créations publicitaires pour plusieurs campagnes
+        ">
+    </div>
+    <div>
+        
+        <div class="comp">
+           <h1> Les compétences les plus recherchées:</h1>
+           <div class="elements">
+            <button>Conception graphique</button><button>traducteur</button><button>monteur vidéo</button><button>créateur de site web</button><button>rédaction de contenu</button><button>developpement web</button><button>HTML</button>
+           </div>
+        </div>
+        <div>
+            <br>
+            <br>
+        
+        <label for="">Combien de temps durera votre travail ? (en mois)</label>
+        <br><input  [(ngModel)]="offer.duration"  type="text"></div>
+        <br><br>
+        <div><label for="">Budget</label>
+        <input  [(ngModel)]="offer.budget"  type="text" placeholder="votre budget."></div>
+        <br><br>
+        <div><label for="">Ajouter une Description de votre offre</label><br>
+        <textarea  [(ngModel)]="offer.description"  name="" id=""  placeholder="description"></textarea></div>
+       
+        <button class="btn" (click)="changevalue()"  >publier l'offre</button>
+ 
+    </div>

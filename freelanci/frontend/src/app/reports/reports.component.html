@@ -1,0 +1,163 @@
+<div class="body">
+   <nav> <app-navbar></app-navbar></nav>
+
+   <div class="second">
+    <ul>
+        <li (click)="change(0)" [ngStyle]="{'border-bottom':section==0 ? '1px solid #888' : 'none'}">offres en cours</li>
+        <li (click)="change(1)" [ngStyle]="{'border-bottom':section==1 ? '1px solid #888' : 'none'}">payment en cours de verification</li>
+        <li (click)="change(2)" [ngStyle]="{'border-bottom':section==2 ? '1px solid #888' : 'none'}">historique de payment</li>
+    </ul>
+    <div class="offres" *ngIf="section==0">
+        <div class="of">
+            <h4 >offre :  conception d'un site web</h4>
+            <h5>client : rzouga chemakh</h5>
+            <h5>Date de debut: 22/03/2023</h5>
+            <h5>satus:In progress</h5>
+
+        </div>
+        <div class="of">
+            <h4>Job Title: Full-Stack Web Development</h4>
+            <h5>Client: John Doe</h5>
+            <h5>Date de début: 13/05/2023</h5>
+            <h5>Status: In Progress</h5>
+        </div>
+        <div class="of">
+            <h4>Job Title: Social Media Marketing Campaign</h4>
+            <h5>Client: ABC Corporation</h5>
+            <h5>Date de début: 01/06/2023</h5>
+            <h5>Status: In Progress</h5>
+        </div>
+        <div class="of">
+            <h4>Job Title: Logo Design and Branding</h4>
+            <h5>Client: XYZ Enterprises</h5>
+            <h5>Date de début: 15/07/2023</h5>
+            <h5>Status: Completed</h5>
+        </div>
+        <div class="of">
+            <h4>Job Title: Content Writing for Blog</h4>
+            <h5>Client: Jane Doe</h5>
+            <h5>Date de début: 25/09/2023</h5>
+            <h5>Status: Completed</h5>
+        </div>
+        <div class="of">
+            <h4>Job Title: UI/UX Design for Web Application</h4>
+            <h5>Client: ABC Tech Solutions</h5>
+            <h5>Date de début: 05/10/2023</h5>
+            <h5>Status: In Progress</h5>
+        </div>
+        <div class="of">
+            <h4>Job Title: Illustration and Graphic Design</h4>
+            <h5>Client: Jane's Art Studio</h5>
+            <h5>Date de début: 10/01/2024</h5>
+            <h5>Status: In Progress</h5>
+        </div>
+        <div class="of">
+            <h4>Job Title: Web Development for Non-Profit Organization</h4>
+            <h5>Client: ABC Charity Foundation</h5>
+            <h5>Date de début: 20/02/2024</h5>
+            <h5>Status: In Progress</h5>
+        </div>
+        
+    </div>
+    <div class="offres" *ngIf="section==1">
+        <div class="of">
+            <h4>Titre du poste : Conception de site web pour une entreprise</h4>
+            <h5>Client : John Smith</h5>
+            <h5>Paiement attendu : 500 $</h5>
+            <h5>Date de paiement : 30/06/2023</h5>
+        </div><div class="of">
+            <h4>Offre : Rédaction d'articles de blog</h4>
+            <h5>Client : Marie Dupont</h5>
+            <h5>Paiement attendu : 200 €</h5>
+            <h5>Date de paiement : 15/07/2023</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Développement d'application mobile</h4>
+            <h5>Client : Robert Martin</h5>
+            <h5>Paiement attendu : 1000 $</h5>
+            <h5>Date de paiement : 30/08/2023</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Conception de logo et identité visuelle</h4>
+            <h5>Client : Laura Sanchez</h5>
+            <h5>Paiement attendu : 500 €</h5>
+            <h5>Date de paiement : 10/09/2023</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Traduction de documents juridiques</h4>
+            <h5>Client : Martin Dupont</h5>
+            <h5>Paiement attendu : 300 $</h5>
+            <h5>Date de paiement : 25/09/2023</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Montage vidéo promotionnel</h4>
+            <h5>Client : David Thompson</h5>
+            <h5>Paiement attendu : 400 €</h5>
+            <h5>Date de paiement : 20/10/2023</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Optimisation SEO d'un site e-commerce</h4>
+            <h5>Client : Julie Lefebvre</h5>
+            <h5>Paiement attendu : 800 $</h5>
+            <h5>Date de paiement : 10/11/2023</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Design d'illustrations personnalisées</h4>
+            <h5>Client : Éric Dubois</h5>
+            <h5>Paiement attendu : 250 €</h5>
+            <h5>Date de paiement : 25/11/2023</h5>
+        </div>
+        
+        
+        
+
+    </div>
+    <div class="offres" *ngIf="section==2">
+        <div class="of">
+            <h4>Offre : Conception de site web</h4>
+            <h5>Client : Marie Dupont</h5>
+            <h5>Prix du travail : 500 €</h5>
+            <h5>Statut de la transaction : Terminé</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Rédaction d'articles SEO</h4>
+            <h5>Client : Jean Martin</h5>
+            <h5>Prix du travail : 300 €</h5>
+            <h5>Statut de la transaction : Terminé</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Développement d'application mobile</h4>
+            <h5>Client : Sophie Tremblay</h5>
+            <h5>Prix du travail : 1000 $</h5>
+            <h5>Statut de la transaction : Terminé</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Design de logo et identité visuelle</h4>
+            <h5>Client : David Thompson</h5>
+            <h5>Prix du travail : 500 €</h5>
+            <h5>Statut de la transaction : Terminé</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Traduction de documents juridiques</h4>
+            <h5>Client : Émilie Lefebvre</h5>
+            <h5>Prix du travail : 400 $</h5>
+            <h5>Statut de la transaction : Terminé</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Conception d'interface utilisateur</h4>
+            <h5>Client : Maxime Dubois</h5>
+            <h5>Prix du travail : 800 $</h5>
+            <h5>Statut de la transaction : Terminé</h5>
+        </div>
+        <div class="of">
+            <h4>Offre : Montage vidéo promotionnel</h4>
+            <h5>Client : Laura Sanchez</h5>
+            <h5>Prix du travail : 600 €</h5>
+            <h5>Statut de la transaction : Terminé</h5>
+        </div>
+        
+
+    </div>
+   </div>
+    
+</div>

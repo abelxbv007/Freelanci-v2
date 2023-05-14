@@ -1,0 +1,59 @@
+<div class="head">
+    <h1>Votre tableau de bord</h1>
+    <div class="connex">
+      <div class="search">
+        <span>search </span
+        ><input type="text" placeholder="recherecher un job" [(ngModel)]="search" />
+      </div>
+    </div>
+  </div>
+<div class="head">
+    <p>recentes publications</p>
+    
+</div>
+
+    <div class="pub" *ngFor="let x of mesoffres" [ngStyle]="{'display':select(x.title) === false ? 'none' : 'block'}" >
+        
+                <div class="info">
+                   
+                <h4>{{x.title}}</h4>
+                <p>{{x.info}}</p>
+                <p>{{x.description}} <strong>Afficher plus...</strong></p>
+            </div>
+            <div class="extra-info">
+                <div class="contents"><h3>{{x.prop}}</h3>
+                <p> propositions</p></div>
+                <div class="contents"><h3>{{x.invit}}</h3><p>Invitations Envoyé</p></div>
+                <div class="contents"><h3>{{x.emp}}</h3><p>Embauché</p></div>
+                
+            </div>
+            <button class="postuler pos" (click)="expand()">{{msg}}</button>
+          
+            <div class="m" *ngIf="msg=='Reduire'" >
+              
+                <div > 
+                    <p>envoyer une proposition pour: 4 points</p>
+                    <p>points disponibles:84</p>
+                    
+                    <h3>Envoyer une lettre:</h3>
+                <textarea name="" id="" cols="70" rows="10"></textarea></div>
+                    <div class="right1">
+                        <button class="postuler" (click)="expand()">Fermer</button>
+                        <button class="postuler" (click)="expand()">Postuler  </button>
+                        <button class="postuler">Enregistrer dans favoris</button>
+                        <br>
+                    <h4>a propos du client</h4>
+                    <p>Mode de paiement : verifié</p>
+                    <p>pays: tunisie</p>
+                <p>13 offres publiées</p>
+                <p>990dt dépensés au total</p>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+               </div>
+           
+        
+</div>
+
+
+
+    

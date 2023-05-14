@@ -1,0 +1,24 @@
+.cc{
+    background-color: transparent;
+    border: 1px solid #4faca4c6;
+    
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cc div{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+   
+}
+a{
+    text-decoration: none;
+    color: #8fdcd5c6;
+}
